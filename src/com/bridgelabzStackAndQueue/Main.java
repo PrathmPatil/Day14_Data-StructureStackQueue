@@ -1,5 +1,6 @@
 package com.bridgelabzStackAndQueue;
 
+import java.util.Deque;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Stack;
@@ -31,7 +32,7 @@ public class Main {
 //			System.out.print(" -> "+stack.pop());
 //		 
 //		}
-		Queue<Integer> que=new LinkedList<Integer>();
+		Deque<Integer> que=new LinkedList<Integer>();
 		que.add(56);
 		que.add(30);
 		que.add(70);
